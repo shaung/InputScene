@@ -43,6 +43,7 @@
 		244E31741C83EFD200AA2AF2 /* InputSceneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputSceneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244E31781C83EFD200AA2AF2 /* InputSceneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSceneUITests.swift; sourceTree = "<group>"; };
 		244E317A1C83EFD200AA2AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244E31861C8408EC00AA2AF2 /* InputScene.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = InputScene.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		244E315C1C83EFD200AA2AF2 /* InputScene */ = {
 			isa = PBXGroup;
 			children = (
+				244E31861C8408EC00AA2AF2 /* InputScene.entitlements */,
 				244E315D1C83EFD200AA2AF2 /* AppDelegate.swift */,
 				244E315F1C83EFD200AA2AF2 /* Assets.xcassets */,
 				244E31611C83EFD200AA2AF2 /* MainMenu.xib */,
@@ -187,6 +189,11 @@
 				TargetAttributes = {
 					244E31591C83EFD200AA2AF2 = {
 						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					244E31681C83EFD200AA2AF2 = {
 						CreatedOnToolsVersion = 7.2;

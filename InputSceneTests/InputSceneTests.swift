@@ -1,11 +1,3 @@
-//
-//  InputSceneTests.swift
-//  InputSceneTests
-//
-//  Created by ショーン on 2/29/16.
-//  Copyright © 2016 drunkplanet. All rights reserved.
-//
-
 import XCTest
 @testable import InputScene
 
